@@ -1,0 +1,11 @@
+ 123  sudo pip install SQLAlchemy
+  142  apt-get install mysql
+  143  sudo apt-get install mysql
+  144  sudo apt-get install mysql-server
+  165  apt-get install python-mysqldb
+  166  sudo apt-get install python-mysq
+
+
+ToDo:
+Get the images working for sales
+Figure out how to model sales->products
