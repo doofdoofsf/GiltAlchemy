@@ -48,11 +48,5 @@ class TestBasic(unittest.TestCase):
      self.session.query(SKU).filter().delete()
      self.session.query(Image).filter().delete()
 
-   def delete_all_data(self):
-     self.session.query(Product).filter().delete()
-     self.session.query(Sale).filter().delete()
-     self.session.query(SKU).filter().delete()
-     self.session.query(Image).filter().delete()
-
    def tearDown(self):
       self.giltAlchemy.clear_mappers()
