@@ -32,9 +32,9 @@ If you wanted to persist all the products in mens sales, you could do the follow
 
    active_sales = giltClient.active("men")
    for sale in active_sales:
-    product_urls = sale.product_urls
-    for product_url in product_urls:
-       product = giltClient.product_detail(product_url)
-       self.session.add(product)
-       self.session.commit()
+   product_urls = sale.product_urls
+   for product_url in product_urls:
+      product = giltClient.product_detail(product_url)
+      session.add(product)
+      session.commit()
 ```
