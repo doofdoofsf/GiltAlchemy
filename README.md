@@ -1,13 +1,13 @@
-#GiltAlchemy
+# GiltAlchemy
 GiltAlchemy is a set of SQLAlchemy models for persisting data returned from the GiltAPI. It will create your database tables.  The models are based on those returned by PyGilt (https://github.com/doofdoofsf/PyGilt)
 
-##Documentation
+## Documentation
 No doc sorry
 
-##Testing
+## Testing
 You'll find some unit tests in the test directory
 
-##Setup
+## Setup
 If you want to use it, you'll need a database, SQLAlchemy and PyGilt.
 
 You can install GiltAlchemy as follows:
@@ -16,7 +16,7 @@ You can install GiltAlchemy as follows:
 
 I tested this on debian using packages `SQLAlchemy, mysql-server, python-mysqldb`
 
-##An example
+## An example
 
 If you wanted to persist all the products in mens sales, you could do the following (error handling removed for clarity):
 
